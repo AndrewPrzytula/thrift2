@@ -1202,7 +1202,7 @@ p {
             -o-animation: iconTranslateY 0.5s forwards;
             animation: iconTranslateY 0.5s forwards; }
 
-      
+
 
 
 /* about section*/
@@ -1644,6 +1644,23 @@ color: red;
   padding: 7rem 6rem 12rem 6rem;;
   background-color:  #3d499f;
 
+
+
+}
+
+@media (max-width: 576px) {
+ #showcase .showcase-text {         /*  media for showcase */
+ margin: 1rem 0;
+ padding: 0;
+ text-align: center;
+
+
+ }
+
+ .custom-button {
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+ }
 
 
 }
