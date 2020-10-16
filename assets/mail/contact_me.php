@@ -28,3 +28,6 @@ $headers .= "Reply-To: $email_address";
 mail($to,$email_subject,$email_body,$headers);
 return true;
 ?>
+
+
+// contact to be puted after testing emailing furnmgr@kmthrift.ca 
